@@ -1,7 +1,5 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
+import { useState } from 'react';
+import Box from "./components/Box";
 import './App.css'
 
 function App() {
@@ -9,9 +7,12 @@ function App() {
 
   return (
     <>
-      <Box className="sklep1" borderColor="black" text="sklep1"/>
+    <div className='lista'>
+      <Box className="tytuł" borderColor="black" />
+    </div>
+      
     </>
-  )
+  );
 }
 
 export default App
